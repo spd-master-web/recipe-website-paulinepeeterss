@@ -1,4 +1,25 @@
 h1 {
     color: blue;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+h3 {    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+ol {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
