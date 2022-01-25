@@ -1,0 +1,82 @@
+h1 {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h3 {    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+ol {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 0%;
+}
+a:link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+a:visited {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.column {
+    float: center;
+    width: 50%;
+    padding: 50px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #menu-container {
+    background:#F7F7F9;
+    border-radius:0;
+    display:inline-block;
+    width:30%;
+    margin:0px; 
+    list-style:none;
+    float: left;
+}
+
+#menu-cooking {
+    background:none;
+    border-radius:0;
+    display:inline-block;
+    width:60%;
+    margin-right:50px; 
+    list-style:none;
+    float: right;
+}
